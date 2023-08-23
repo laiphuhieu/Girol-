@@ -1,0 +1,218 @@
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #333333;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border-radius: 3px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1376px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.is-active {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: #fff;
+}
+
+.white-btn {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 700 !important;
+  width: 150px;
+  height: 46px;
+  outline: 0 !important;
+  text-transform: uppercase;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  transition: color 0.3s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  display: inline-block;
+  text-align: center;
+}
+
+.animate-white-btn {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 700 !important;
+  width: 150px;
+  height: 46px;
+  outline: 0 !important;
+  text-transform: uppercase;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: border-color 0.3s, color 0.3s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  z-index: 1;
+  display: inline-block;
+  text-align: center;
+}
+
+.animate-white-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background-color: #fff;
+  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  transform-origin: 0 100%;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+  z-index: -1;
+}
+
+.animate-white-btn:hover::before {
+  transform: rotate3d(0, 0, 1, 0deg);
+}
+
+.white-btn:hover {
+  color: #f99a00;
+}
+
+.animate-white-btn:hover {
+  color: #f99a00;
+  border-color: #fff !important;
+}
+
+.animate-orange-btn {
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: 700 !important;
+  width: 150px;
+  height: 46px;
+  outline: 0 !important;
+  text-transform: uppercase;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent !important;
+  color: #f99a00 !important;
+  border: 2px solid #f99a00 !important;
+  transition: border-color 0.3s, color 0.3s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+  z-index: 1;
+  display: inline-block !important;
+  text-align: center;
+}
+
+.animate-orange-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 100%;
+  background-color: #f99a00;
+  transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -3em, 0);
+  transform-origin: 0 100%;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+  z-index: -1;
+}
+
+.animate-orange-btn:hover::before {
+  transform: rotate3d(0, 0, 1, 0deg);
+}
+
+.animate-orange-btn:hover {
+  color: #fff !important;
+  border-color: #f99a00 !important;
+}
+
+button {
+  background-color: #eeeeee;
+  border-color: #eeeeee;
+  color: #333333;
+}
+
+.section-heading {
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 67px;
+}
+
+.section-heading .sub-title {
+  color: #7b7b7a;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 8px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+
+.section-heading .title {
+  text-transform: capitalize;
+  color: #383838;
+  margin-bottom: 8px;
+  margin-top: 0;
+  line-height: 50px;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.section-heading svg {
+  fill: #f99a00;
+  stroke: #f99a00;
+  width: 193px;
+  height: 26px;
+}
+
+.is-hidden {
+  display: none !important;
+}

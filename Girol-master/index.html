@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font/fontawesome-free-6.1.1-web/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    >
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+  </head>
+
+  <body class="home">
+    <div class="site-wrapper">
+      <!-- header -->
+      <header class="site-header header-sticky header-transparent-bg">
+        <div class="header-toolbar">
+          <div class="header-container toolbar-container">
+            <div class="toolbar-left">
+              <!-- address -->
+              <div class="address">
+                <span><i class="material-icons">location_on</i></span>
+                <h5 class="toolbar-info">
+                  Vigo City 78, New York, Park land place New York, Queens.
+                </h5>
+              </div>
+              <!-- contact -->
+              <div class="contact">
+                <span><i class="material-icons">phone</i></span>
+                <a href="" class="toolbar-info">01 (09) 125 6589 123</a>
+              </div>
+            </div>
+            <div class="toolbar-right">
+              <!-- cart -->
+              <div class="cart">
+                <span>
+                  <i class="material-icons">shopping_cart</i>
+                </span>
+              </div>
+              <!-- languages -->
+              <div class="languages">
+                <div class="language en">
+                  <img src="./assets/img/en.webp" alt="" />
+                </div>
+                <div class="language vi">
+                  <img src="./assets/img/vi.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-container">
+          <!-- pc -->
+          <div class="header-top">
+            <div class="header-top-wrapper">
+              <!-- logo -->
+              <div class="logo-box">
+                <a href="#" class="logo-text">Girol</a>
+              </div>
+              <!-- nav -->
+              <div class="nav-wrapper">
+                <div class="menu-desktop">
+                  <ul class="main-nav-list">
+                    <li class="main-nav-item is-active">
+                      <a href="#" class="main-nav-link">Home</a>
+                    </li>
+                    <li class="main-nav-item">
+                      <a href="#" class="main-nav-link">Shop</a>
+                      <ul class="sub-nav">
+                        <li class="sub-nav-list">
+                          <a href="" class="sub-nav-link"
+                            >INFINITY MEDS Injection</a
+                          >
+                        </li>
+                        <li class="sub-nav-list">
+                          <a href="" class="sub-nav-link">INFINITY MEDS Oral</a>
+                        </li>
+                        <li class="sub-nav-list">
+                          <a href="" class="sub-nav-link"
+                            >SYNERGENYX Injection</a
+                          >
+                        </li>
+                        <li class="sub-nav-list">
+                          <a href="" class="sub-nav-link">SYNERGENYX Oral</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="main-nav-item">
+                      <a href="#" class="main-nav-link">About Us</a>
+                    </li>
+                    <li class="main-nav-item">
+                      <a href="#" class="main-nav-link">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="search-box">
+                  <div class="site-search">
+                    <form action="" class="search-form">
+                      <div class="search-form">
+                        <span><i class="material-icons">search</i></span>
+                        <input
+                          type="text"
+                          class="search-form-field"
+                          placeholder="Search products..."
+                        />
+                      </div>
+                      <div class="search-submit">
+                        <input
+                          type="submit"
+                          name=""
+                          id=""
+                          class="search-submit"
+                          value="Search"
+                        />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile -->
+          <div class="site-device">
+            <div class="menu-device-btn">
+              <div class="btn-wrapper">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- content -->
+      <div class="site-content">
+        <div class="site-content-wrapper">
+          <div class="section-style-1">
+            <div
+              class="slide-controler"
+              aria-label="Carousel Navigation"
+              tabindex="0"
+            >
+              <button
+                class="controler-btn btn-left"
+                aria-controls="tns1"
+                tabindex="-1"
+                data-controls="prev"
+              >
+                <span><i class="material-icons">arrow_back</i></span>
+              </button>
+              <button
+                class="controler-btn btn-right"
+                aria-controls="tns1"
+                tabindex="-1"
+                data-controls="next"
+              >
+                <span><i class="material-icons">arrow_forward</i></span>
+              </button>
+            </div>
+            <div class="hero-banner">
+              <div class="hero-banner-item">
+                <div class="container banner-container">
+                  <div class="row">
+                    <div class="col l-6 m-7 c-12 banner-info banner-left">
+                      <h1 class="banner-title">Trenbolon.H</h1>
+                      <p class="banner-descr">
+                        Trenbolone Hexahydrobenzyl Carbonate is a strong
+                        ,androgenic steroid which also has a high anabolic
+                        effect.Everyone who uses trenbolone is enthusiastic
+                        about the results:a fast gain in solid,high-quality
+                        muscle mass with a strength increase .In addition ,the
+                        regulate application over a number of weeks results in a
+                        well visible increased muscle hardness over the entire
+                        body without dieting at the same time.Unlike for most
+                        highly -androgenic steroids,trenbolone doesn’t
+                        aromatize.
+                      </p>
+                      <div class="product-mb">
+                        <img
+                          src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="banner-btns">
+                        <a href="#" class="banner-btn white-btn">Purchase</a>
+                        <a href="#" class="banner-btn animate-white-btn"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+                    <div class="col l-6 m-5 c-0 banner-info banner-right">
+                      <div class="product-img">
+                        <img
+                          src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-banner-item">
+                <div class="container banner-container">
+                  <div class="row">
+                    <div class="col l-6 m-7 c-12 banner-info banner-left">
+                      <h1 class="banner-title">Ment</h1>
+                      <p class="banner-descr">
+                        Trestolone Acetate will deliver a rock hard physique
+                        with significant gains in muscle at the same time. So
+                        you can consider this as one of the best supplements for
+                        muscle growth. By either using it alone or stacking it
+                        with other boosters, you can harden and cut your body’s
+                        physique to maximize its size and strength.
+                      </p>
+                      <div class="product-mb">
+                        <img
+                          src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="banner-btns">
+                        <a href="#" class="banner-btn white-btn">Purchase</a>
+                        <a href="#" class="banner-btn animate-white-btn"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+                    <div class="col l-6 m-5 c-0 banner-info banner-right">
+                      <div class="product-img">
+                        <img
+                          src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-banner-item">
+                <div class="container banner-container">
+                  <div class="row">
+                    <div class="col l-6 m-7 c-12 banner-info banner-left">
+                      <h1 class="banner-title">Nebido</h1>
+                      <p class="banner-descr">
+                        Testosterone undecanoate is used to treat men who do not
+                        produce enough testosterone on their own. The androgen
+                        family of medicines includes testosterone. In males,
+                        testosterone plays a role in the development and
+                        maintenance of masculine traits including body hair and
+                        a deep voice. It is also required for natural sexual
+                        ability and desire, as well as muscle preservation and
+                        bone preservation.
+                      </p>
+                      <div class="product-mb">
+                        <img
+                          src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                          alt=""
+                        />
+                      </div>
+                      <div class="banner-btns">
+                        <a href="#" class="banner-btn white-btn">Purchase</a>
+                        <a href="#" class="banner-btn animate-white-btn"
+                          >More</a
+                        >
+                      </div>
+                    </div>
+
+                    <div class="col l-6 m-5 c-0 banner-info banner-right">
+                      <div class="product-img">
+                        <img
+                          src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- section2 -->
+          <section class="section-style-2">
+            <div class="top-feature">
+              <div class="container">
+                <div class="feature-border">
+                  <div class="row">
+                    <div class="col l-3 m-6 c-12 product-img">
+                      <img src="./assets/img/placeholder.png" alt="" />
+                    </div>
+                    <div class="col l-3 m-6 c-12 product-feature">
+                      <div class="feature-info">
+                        <div class="img-wrapper">
+                          <img src="./assets/img/placeholder.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="feature-text">
+                        <h3 class="feature-text-heading">
+                          Elevate Your Health with a Nutrient-Packed Diet
+                        </h3>
+                        <p class="feature-text-descr">
+                          Discover the power of a nutrient-packed diet to fuel
+                          your body, boost your energy, and support your overall
+                          health and wellness.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12 product-feature">
+                      <div class="feature-info">
+                        <div class="img-wrapper">
+                          <img src="./assets/img/placeholder.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="feature-text">
+                        <h3 class="feature-text-heading">
+                          Choose Healthy, Nourishing Foods for a Stronger You
+                        </h3>
+                        <p class="feature-text-descr">
+                          Make a conscious choice to fuel your body with
+                          healthy, nourishing foods that help you feel your best
+                          and stay strong.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12 product-feature">
+                      <div class="feature-info">
+                        <div class="img-wrapper">
+                          <img src="./assets/img/placeholder.png" alt="" />
+                        </div>
+                      </div>
+                      <div class="feature-text">
+                        <h3 class="feature-text-heading">
+                          Discover the Delicious Taste of Clean Eating
+                        </h3>
+                        <p class="feature-text-descr">
+                          Experience the delicious taste of clean eating, with
+                          fresh, whole foods that provide the fuel and
+                          nourishment your body needs.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- section 3 -->
+          <section class="section-style-3">
+            <div class="container">
+              <div class="products-area">
+                <div class="row">
+                  <div class="col l-6 m-12 c-12">
+                    <div class="small-products">
+                      <div class="single-product-box">
+                        <div class="product-wrapper small">
+                          <div class="product-text">
+                            <h4 class="product-title">PROVIRON</h4>
+                            <h6 class="product-sub-title">SYNERGENYX ORAL</h6>
+                            <h3 class="product-price">
+                              <span>
+                                <bdi>650.000 <span>VND</span></bdi>
+                              </span>
+                            </h3>
+                            <a href="" class="animate-orange-btn">Order now!</a>
+                          </div>
+
+                          <div class="product-img">
+                            <div class="img-wrapper">
+                              <img
+                                src="./assets/img/Proviron-S-scaled.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="single-product-box">
+                        <div class="product-wrapper small">
+                          <div class="product-text">
+                            <h4 class="product-title">PROVIRON</h4>
+                            <h6 class="product-sub-title">SYNERGENYX ORAL</h6>
+                            <h3 class="product-price">
+                              <span>
+                                <bdi>650.000 <span>VND</span></bdi>
+                              </span>
+                            </h3>
+                            <a href="" class="animate-orange-btn">Order now!</a>
+                          </div>
+
+                          <div class="product-img">
+                            <div class="img-wrapper">
+                              <img
+                                src="./assets/img/Proviron-S-scaled.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col l-6 m-12 c-12">
+                    <div class="product-wrapper large">
+                      <div class="slider-wrapper">
+                        <!-- <div class="slide-controler" aria-label="Carousel Navigation" tabindex="0">
+                        <button class="controler-btn btn-left2" aria-controls="tns2" tabindex="-1" data-controls="prev">
+                          <span><i class="material-icons">arrow_back</i></span>
+                        </button>
+                        <button class="controler-btn btn-right2" aria-controls="tns2" tabindex="-1"
+                          data-controls="next">
+                          <span><i class="material-icons">arrow_forward</i></span>
+                        </button>
+                      </div> -->
+                        <div class="slider-container">
+                          <div class="product-slider-item">
+                            <div class="product-text">
+                              <h4 class="product-title">PROVIRON</h4>
+                              <h6 class="product-sub-title">SYNERGENYX ORAL</h6>
+                              <p class="product-descr">
+                                Since Dianabol was introduced back in the 1950s,
+                                bodybuilders have continued to use this steroid
+                                for their bulking workout and training programs.
+                                Dianabol or Dbol offers users fantastic
+                                bodybuilding gains. This steroid will help
+                                increase skeletal muscle mass while improving
+                                your athleticism at the same time. Dbol also
+                                helps you recover quickly from muscle injuries
+                                encountered during your intense training
+                                sessions. Mhetan is not an over-the-counter
+                                drug, but you can now buy real oral Dianabol
+                                online for your bodybuilding and bulking workout
+                                schedule. In this guide, you will get to know
+                                the effects of Dbol, the best dosage/cycle, and
+                                where you can buy genuine Dianabol online.
+                                Effects of Dianabol Some of the effects of
+                                Mhetan include; Enhanced skeletal muscle mass:
+                                Using Dbol will boost your nitrogen retention,
+                                IGF-1 hormone, and protein production.Mhetan
+                                will also promote protein synthesis which
+                                stimulates the growth of your skeletal muscles.
+                                Increased stamina, and strength: Dianabol will
+                                increase your red blood cell count which will in
+                                turn boost your energy and skeletal muscle
+                                strength. Dbol will also improve your
+                                cardiovascular conditioning and stamina. Using
+                                Dbol will provide you with 14 kg or 30 lb of
+                                strength for large compound lifts. Improved
+                                recovery time: Dianabol will boost your collagen
+                                production and increase your bone density.
+                                Increased collagen production will also help
+                                speed up your recovery time from high interval
+                                intensity training (HIIT) muscle injuries. Best
+                                Dianabol Cycle Before you buy real oral Dianabol
+                                online, you need to know what cycle and dosage
+                                would be best for you. You need to consult with
+                                your doctor or a reliable bodybuilding trainer
+                                before you start running any Dbol cycle. Dbol is
+                                metabolised by your liver when taken, so it is
+                                always advisable to run short cycles. You may
+                                also need to take liver protection medication,
+                                especially if you have to take high doses over a
+                                short or long cycle. A typical beginner solo
+                                Dianabol cycle should run for a period of 5
+                                weeks. For your second Dbol cycle you can extend
+                                your intake by one week. Advanced level
+                                bodybuilders can run a 6 to 8 week Dbol cycle.
+                                Dbol can be also stacked with other bulking and
+                                performance enhancing anabolic steroids like
+                                Deca-Durabolin, Testosterone Enanthate, and
+                                Anadrol. You can combine Dbol with other
+                                steroids and run a 4 to 8 week cycle (depending
+                                on recommendations from your physician or
+                                trainer). Oral Dianabol Dosage Knowing what Dbol
+                                cycle is best for you is necessary, but equally
+                                important is knowing what dosage to take when
+                                you buy real oral Dianabol online. Highlighted
+                                below are Dbol dosages for beginners,
+                                intermediate, and advanced bodybuilders. Also
+                                highlighted are dosages for some popular Dbol
+                                stacks.
+                              </p>
+                              <h3 class="product-price">
+                                <span>
+                                  <bdi>650.000 <span>VND</span></bdi>
+                                </span>
+                              </h3>
+                              <a href="" class="animate-orange-btn"
+                                >Order now!</a
+                              >
+                            </div>
+
+                            <div class="product-img">
+                              <img
+                                src="./assets/img/TRENBOLONE.H-scaled.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+
+                          <div class="product-slider-item">
+                            <div class="product-text">
+                              <h4 class="product-title">ANDRIOL</h4>
+                              <h6 class="product-sub-title">SYNERGENYX ORAL</h6>
+                              <p class="product-descr">
+                                Since Dianabol was introduced back in the 1950s,
+                                bodybuilders have continued to use this steroid
+                                for their bulking workout and training programs.
+                                Dianabol or Dbol offers users fantastic
+                                bodybuilding gains. This steroid will help
+                                increase skeletal muscle mass while improving
+                                your athleticism at the same time. Dbol also
+                                helps you recover quickly from muscle injuries
+                                encountered during your intense training
+                                sessions. Mhetan is not an over-the-counter
+                                drug, but you can now buy real oral Dianabol
+                                online for your bodybuilding and bulking workout
+                                schedule. In this guide, you will get to know
+                                the effects of Dbol, the best dosage/cycle, and
+                                where you can buy genuine Dianabol online.
+                                Effects of Dianabol Some of the effects of
+                                Mhetan include; Enhanced skeletal muscle mass:
+                                Using Dbol will boost your nitrogen retention,
+                                IGF-1 hormone, and protein production.Mhetan
+                                will also promote protein synthesis which
+                                stimulates the growth of your skeletal muscles.
+                                Increased stamina, and strength: Dianabol will
+                                increase your red blood cell count which will in
+                                turn boost your energy and skeletal muscle
+                                strength. Dbol will also improve your
+                                cardiovascular conditioning and stamina. Using
+                                Dbol will provide you with 14 kg or 30 lb of
+                                strength for large compound lifts. Improved
+                                recovery time: Dianabol will boost your collagen
+                                production and increase your bone density.
+                                Increased collagen production will also help
+                                speed up your recovery time from high interval
+                                intensity training (HIIT) muscle injuries. Best
+                                Dianabol Cycle Before you buy real oral Dianabol
+                                online, you need to know what cycle and dosage
+                                would be best for you. You need to consult with
+                                your doctor or a reliable bodybuilding trainer
+                                before you start running any Dbol cycle. Dbol is
+                                metabolised by your liver when taken, so it is
+                                always advisable to run short cycles. You may
+                                also need to take liver protection medication,
+                                especially if you have to take high doses over a
+                                short or long cycle. A typical beginner solo
+                                Dianabol cycle should run for a period of 5
+                                weeks. For your second Dbol cycle you can extend
+                                your intake by one week. Advanced level
+                                bodybuilders can run a 6 to 8 week Dbol cycle.
+                                Dbol can be also stacked with other bulking and
+                                performance enhancing anabolic steroids like
+                                Deca-Durabolin, Testosterone Enanthate, and
+                                Anadrol. You can combine Dbol with other
+                                steroids and run a 4 to 8 week cycle (depending
+                                on recommendations from your physician or
+                                trainer). Oral Dianabol Dosage Knowing what Dbol
+                                cycle is best for you is necessary, but equally
+                                important is knowing what dosage to take when
+                                you buy real oral Dianabol online. Highlighted
+                                below are Dbol dosages for beginners,
+                                intermediate, and advanced bodybuilders. Also
+                                highlighted are dosages for some popular Dbol
+                                stacks.
+                              </p>
+                              <h3 class="product-price">
+                                <span>
+                                  <bdi>750.000 <span>VND</span></bdi>
+                                </span>
+                              </h3>
+                              <a href="" class="animate-orange-btn"
+                                >Order now!</a
+                              >
+                            </div>
+
+                            <div class="product-img">
+                              <img
+                                src="./assets/img/Proviron-S-scaled.jpg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- section 4 -->
+          <section class="section-style-4">
+            <section class="headline-block">
+              <div class="container">
+                <div class="section-heading">
+                  <h5 class="sub-title">Eating for Optimal Health</h5>
+                  <h3 class="title">
+                    Fuel Your Body with Nutrient-Dense Foods and Healthy Eating
+                    Habits
+                  </h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 193 26"
+                    class="svg"
+                  >
+                    <path
+                      d="M95.3 7.4c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6-5.6-2.5-5.6-5.6 2.5-5.6 5.6-5.6m0-.5c-3.3 0-6.1 2.7-6.1 6.1s2.7 6.1 6.1 6.1 6.1-2.7 6.1-6.1-2.8-6.1-6.1-6.1z"
+                    ></path>
+                    <path
+                      d="M87.5 7.4c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6-5.6-2.5-5.6-5.6 2.5-5.6 5.6-5.6m0-.5c-3.3 0-6.1 2.7-6.1 6.1s2.7 6.1 6.1 6.1c3.3 0 6.1-2.7 6.1-6.1s-2.8-6.1-6.1-6.1zm15.5.5c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6-5.6-2.5-5.6-5.6 2.5-5.6 5.6-5.6m0-.5c-3.3 0-6.1 2.7-6.1 6.1s2.8 6 6.1 6 6.1-2.7 6.1-6.1-2.7-6-6.1-6z"
+                    ></path>
+                    <path d="M109 12.6h84v.5h-84zm-109 0h82v.5H0z"></path>
+                  </svg>
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <div class="section-bg">
+                <div class="container">
+                  <div class="cardw-wrapper">
+                    <div class="row">
+                      <div class="col l-4 m-4 c-12 single-card-wrapper">
+                        <div class="single-card">
+                          <div class="card-img-wrapper">
+                            <img src="./assets/img/placeholder.png" alt="" />
+                          </div>
+                          <h4 class="card-title">
+                            Elevate Your Fitness with Healthy, High-Protein
+                            Foods
+                          </h4>
+                          <p class="card-descr">
+                            Fuel your workouts and support your fitness goals
+                            with healthy, high-protein foods that keep you
+                            energized and feeling strong.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col l-4 m-4 c-12 single-card-wrapper">
+                        <div class="single-card">
+                          <div class="card-img-wrapper">
+                            <img src="./assets/img/placeholder.png" alt="" />
+                          </div>
+                          <h4 class="card-title">
+                            Elevate Your Fitness with Healthy, High-Protein
+                            Foods
+                          </h4>
+                          <p class="card-descr">
+                            Fuel your workouts and support your fitness goals
+                            with healthy, high-protein foods that keep you
+                            energized and feeling strong.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col l-4 m-4 c-12 single-card-wrapper">
+                        <div class="single-card">
+                          <div class="card-img-wrapper">
+                            <img src="./assets/img/placeholder.png" alt="" />
+                          </div>
+                          <h4 class="card-title">
+                            Elevate Your Fitness with Healthy, High-Protein
+                            Foods
+                          </h4>
+                          <p class="card-descr">
+                            Fuel your workouts and support your fitness goals
+                            with healthy, high-protein foods that keep you
+                            energized and feeling strong.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+
+          <section class="section-style-5">
+            <section class="headline-block">
+              <div class="container">
+                <div class="section-heading">
+                  <h5 class="sub-title">Nourish Your Body And Mind</h5>
+                  <h3 class="title">
+                    Discover The Power Of Whole, Nutrient-Packed Foods For
+                    Optimal Health And Wellness
+                  </h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 193 26"
+                    class="svg"
+                  >
+                    <path
+                      d="M95.3 7.4c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6-5.6-2.5-5.6-5.6 2.5-5.6 5.6-5.6m0-.5c-3.3 0-6.1 2.7-6.1 6.1s2.7 6.1 6.1 6.1 6.1-2.7 6.1-6.1-2.8-6.1-6.1-6.1z"
+                    ></path>
+                    <path
+                      d="M87.5 7.4c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6-5.6-2.5-5.6-5.6 2.5-5.6 5.6-5.6m0-.5c-3.3 0-6.1 2.7-6.1 6.1s2.7 6.1 6.1 6.1c3.3 0 6.1-2.7 6.1-6.1s-2.8-6.1-6.1-6.1zm15.5.5c3.1 0 5.6 2.5 5.6 5.6s-2.5 5.6-5.6 5.6-5.6-2.5-5.6-5.6 2.5-5.6 5.6-5.6m0-.5c-3.3 0-6.1 2.7-6.1 6.1s2.8 6 6.1 6 6.1-2.7 6.1-6.1-2.7-6-6.1-6z"
+                    ></path>
+                    <path d="M109 12.6h84v.5h-84zm-109 0h82v.5H0z"></path>
+                  </svg>
+                </div>
+              </div>
+            </section>
+
+            <!-- section -->
+            <section>
+              <div class="section-wrapper">
+                <div class="container">
+                  <div class="category-wrapper">
+                    <ul class="categories">
+                      <li
+                        class="category-item is-active"
+                        data-tab-category="all"
+                      >
+                        <span>All</span>
+                      </li>
+                    </ul>
+                    <div class="category-products">
+                      <div class="grid"></div>
+                    </div>
+                    <div class="category-btn">
+                      <a href="" class="animate-orange-btn">More products</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-wrap">
+            <div class="footer-top">
+              <div class="row">
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-info">
+                    <a href="" class="logo-text">Girol</a>
+                    <div>
+                      <p class="footer-descr">
+                        Lorem ipsum odor amet, consectetuer adipiscing elit. Non
+                        malesuada donec habitant primis parturient mauris porta.
+                        Mauris sapien ornare quam
+                      </p>
+                      <div class="footer-social">
+                        <h4 class="footer-social-top">
+                          SOCIAL
+                          <span class="footer-social-top-orange">ACTIVIST</span>
+                        </h4>
+                        <ul class="footer-social-bottom">
+                          <li class="footer-social-bottom-item">
+                            <a href="" class="footer-social-link">
+                              <span
+                                ><i class="fa-brands fa-facebook-f"></i
+                              ></span>
+                            </a>
+                          </li>
+                          <li class="footer-social-bottom-item">
+                            <a href="" class="footer-social-link">
+                              <span
+                                ><i class="fa-brands fa-instagram"></i
+                              ></span>
+                            </a>
+                          </li>
+                          <li class="footer-social-bottom-item">
+                            <a href="" class="footer-social-link">
+                              <span><i class="fa-brands fa-twitter"></i></span>
+                            </a>
+                          </li>
+                          <li class="footer-social-bottom-item">
+                            <a href="" class="footer-social-link">
+                              <span><i class="fa-brands fa-youtube"></i></span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-nav">
+                    <h3 class="footer-title">QUICK LINKS</h3>
+                    <ul class="footer-main-nav">
+                      <li class="main-nav-item">
+                        <a href="#" class="main-nav-link">Home</a>
+                      </li>
+                      <li class="main-nav-item">
+                        <a href="#" class="main-nav-link">Shop</a>
+                      </li>
+                      <li class="main-nav-item">
+                        <a href="#" class="main-nav-link">About Us</a>
+                      </li>
+                      <li class="main-nav-item">
+                        <a href="#" class="main-nav-link">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col l-4 m-4 c-12">
+                  <div class="footer-contact">
+                    <h3 class="footer-title">CONTACT INFO</h3>
+                    <ul class="footer-data">
+                      <li class="footer-data-item">
+                        <div class="footer-data-icon">
+                          <span><i class="fa-solid fa-location-dot"></i></span>
+                        </div>
+                        <div class="footer-data-text">
+                          Vigo City 78, New York, Park land place New York,
+                          Queens.
+                        </div>
+                      </li>
+                      <li class="footer-data-item">
+                        <div class="footer-data-icon">
+                          <span><i class="fa-solid fa-phone"></i></span>
+                        </div>
+                        <div class="footer-data-text">01 (09) 125 6589 123</div>
+                      </li>
+                      <li class="footer-data-item">
+                        <div class="footer-data-icon">
+                          <span><i class="fa-solid fa-envelope"></i></span>
+                        </div>
+                        <div class="footer-data-text">Demo@demolink.com</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-bottom">
+              Copyright © 2023 Vconits. All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- mobile menu bar -->
+    <div class="overlay-body"></div>
+    <div class="menu-device-wrapper">
+      <div class="close-menu">
+        <span>
+          <i class="material-icons">close</i>
+        </span>
+      </div>
+      <nav class="menu-device">
+        <div class="main-menu-container">
+          <ul class="main-nav-list">
+            <li class="main-nav-item is-active">
+              <a href="#" class="main-nav-link">Home</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="#" class="main-nav-link">Shop</a>
+              <ul class="sub-nav2">
+                <li class="sub-nav-list">
+                  <a href="" class="sub-nav-link">INFINITY MEDS Injection</a>
+                </li>
+                <li class="sub-nav-list">
+                  <a href="" class="sub-nav-link">INFINITY MEDS Oral</a>
+                </li>
+                <li class="sub-nav-list">
+                  <a href="" class="sub-nav-link">SYNERGENYX Injection</a>
+                </li>
+                <li class="sub-nav-list">
+                  <a href="" class="sub-nav-link">SYNERGENYX Oral</a>
+                </li>
+              </ul>
+              <div class="more">
+                <span></span>
+                <span></span>
+              </div>
+            </li>
+            <li class="main-nav-item">
+              <a href="#" class="main-nav-link">About Us</a>
+            </li>
+            <li class="main-nav-item">
+              <a href="#" class="main-nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="search-box search-box-device">
+        <div class="site-search">
+          <form action="" class="search-form">
+            <div class="search-form">
+              <input
+                type="text"
+                class="search-form-field"
+                placeholder="Search products..."
+              />
+            </div>
+            <div class="search-box-submit">
+              <input
+                type="submit"
+                name=""
+                id=""
+                class="search-submit"
+                value="Search"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
